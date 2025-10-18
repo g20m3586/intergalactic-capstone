@@ -1,0 +1,19 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "default": true,
+      "package": "IntergalacticOperations",
+      "versionDescription": ""
+    }
+  ],
+  "name": "IntergalacticFreightTrades",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "65.0",
+  "packageAliases": {
+    "IntergalacticOperations": "0HogK0000000VLZSA2"
+  }
+}

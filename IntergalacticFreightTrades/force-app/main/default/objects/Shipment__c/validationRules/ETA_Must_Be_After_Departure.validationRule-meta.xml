@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ETA_Must_Be_After_Departure</fullName>
+    <active>true</active>
+    <description>Ensure the Estimated Time of Arrival is logically after the Departure Date.</description>
+    <errorConditionFormula>AND( NOT(ISBLANK( Departure_Date__c )), NOT(ISBLANK( ETA__c )),  ETA__c  &lt;=  Departure_Date__c )</errorConditionFormula>
+    <errorDisplayField>ETA__c</errorDisplayField>
+    <errorMessage>Estimated Time of Arrival must be after the Departure Date.</errorMessage>
+</ValidationRule>
